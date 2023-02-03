@@ -1021,3 +1021,44 @@ FodyWeavers.xsd
 # Additional files built by Visual Studio
 
 # End of https://www.toptal.com/developers/gitignore/api/linux,windows,macos,rider,sublimetext,visualstudio,visualstudiocode
+
+#====================================================================
+### CUSTOM ###
+
+## Folders
+[Bb]uild/
+
+## Secure Configurations
+_configSecure
+
+## Files
+[Pp]rivate*
+[Ss]ecret*
+*[Pp]rivate*
+*[Ss]ecret*
+
+# Logs #
+[Ll]ogs/
+App[Ll]ogs*/
+/[Ll]og/*
+!/[Ll]og/.keep
+/logfile
+/tmp
+
+# Packages #
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+## Overrides
+
+
+# END CUSTOM SETTINGS
+#====================================================================
