@@ -7,10 +7,10 @@
 
 .biography {
     display: inline-block;
-    border: 50px solid red;
+    border: 5px solid black;
     background-color: cadetblue;
     padding: 1em;
-    font-size: 5px;
+    font-size: 18px;
 }
 
 .footer-3-wide {
