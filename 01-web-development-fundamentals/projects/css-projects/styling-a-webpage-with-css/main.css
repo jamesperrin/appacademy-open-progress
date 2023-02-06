@@ -1,37 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Lora&display=swap");
+
 h1 {
-    font-size: ;
-    font-family: ;
-    padding: ;
-    margin: ;
-    font-weight: ;
-    text-decoration: ;
-    color: ;
-    background-color: ;
+  font-size: 2.5em;
+  font-family: "Lora", serif;
+  padding: 5px;
+  margin: 5px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: chocolate;
+  background-color: beige;
 }
 
 h2 {
-    font-size: ;
-    font-family: ;
-    padding: ;
-    margin: ;
-    font-weight: ;
-    color: ;
-    background-color: ;
+  font-size: 1.5em;
+  font-family: "Lora", serif;
+  padding: 5px;
+  margin: 5px;
+  font-weight: bold;
+  color: black;
+  background-color: white;
 }
 
 p {
-    font-family: ;
-    font-size: ;
-    padding: ;
-    margin: ;
-    color: ;
-    background-color: ;
+  font-family: "Lora", serif;
+  padding: 5px;
+  margin: 1px;
+  color: black;
+  background-color: white;
 }
 
 .logo {
-    background-size: cover;
-    background-image: url();
-    background-color: ;
-    height: ;
-    width: ;
+  background-size: cover;
+  background-image: url(./logo-emblem-black-1000.png);
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  margin: 10px;
 }
