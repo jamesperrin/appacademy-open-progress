@@ -1,6 +1,6 @@
 let score = 0;
 let molesLeft = 30;
-let popupLength = 1000;
+let popupLength = 3000;
 let hideTimeout;
 let clickable = false;
 
