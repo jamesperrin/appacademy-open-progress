@@ -1,69 +1,72 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="layout.css">
-    </head>
-    <body>
-        <form action="/form-handling-url" method="post">
-            <fieldset>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="layout.css" />
+</head>
+
+<body>
+    <form action="/form-handling-url" method="post">
+        <fieldset class="center">
             <legend>Add user</legend>
-        
-            <div>
-                <label for="firstName">First name</label>
-                <input type="text" id="firstName" name="first_name">
+
+            <div class="form-group">
+                <label for="firstName" class="control-label">First name</label>
+                <input type="text" id="firstName" name="first_name" class="control-form" />
             </div>
-        
-            <div>
-                <label for="lastName">Last name</label>
-                <input type="text" id="lastName" name="last_name">
+
+            <div class="form-group">
+                <label for="lastName" class="control-label">Last name</label>
+                <input type="text" id="lastName" name="last_name" class="control-form" />
             </div>
-        
-            <div>
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email_address">
+
+            <div class="form-group">
+                <label for="email" class="control-label">Email</label>
+                <input type="email" id="email" name="email_address" class="control-form" />
             </div>
-        
-            <div>
-                <label for="role">Status</label>
-                <select id="role" name="user_role_name">
-                <option value="student">Student</option>
-                <option value="instructor">Instructor</option>
-                <option value="guest">Guest</option>
+
+            <div class="form-group">
+                <label for="role" class="control-label">Status</label>
+                <select id="role" name="user_role_name" class="control-form control-form__select">
+                    <option value="student">Student</option>
+                    <option value="instructor">Instructor</option>
+                    <option value="guest">Guest</option>
                 </select>
             </div>
-            
-            <div>
+
+            <div class="form-group lang">
                 <p>Choose your favorite Web language:</p>
-                <input type="radio" id="html" name="fav_language" value="HTML">
-                <label for="html">HTML</label><br>
-                <input type="radio" id="css" name="fav_language" value="CSS">
-                <label for="css">CSS</label><br>
-                <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-                <label for="javascript">JavaScript</label>
+                <input type="radio" id="html" name="fav_language" value="HTML" class="lang__input" />
+                <label for="html" class="lang__label">HTML</label><br />
+                <input type="radio" id="css" name="fav_language" value="CSS" class="lang__input" />
+                <label for="css" class="lang__label">CSS</label><br />
+                <input type="radio" id="javascript" name="fav_language" value="JavaScript" class="lang__input" />
+                <label for="javascript" class="lang__label">JavaScript</label>
             </div>
 
-            <div>
-                <label for="comments">Comments</label>
-                <textarea id="comments" name="comments"></textarea>
+            <div class="form-group comments">
+                <label for="comments" class="control-label">Comments</label>
+                <textarea id="comments" name="comments" class="control-form"></textarea>
             </div>
 
-            <div>
-                <label for="date">Date</label>
-                <input type="date" id="date" name="date">
+            <div class="form-group">
+                <label for="date" class="control-label">Date</label>
+                <input type="date" id="date" name="date" class="control-form" />
             </div>
 
-            <div>
-                <input type="checkbox" id="signup" name="signup" value="Signup">
-                <label for="signup">Sign up for news letter</label><br>
-                <input type="checkbox" id="terms" name="terms" value="Terms">
-                <label for="terms"> Agree to terms and conditions</label>
+            <div class="form-group">
+                <input type="checkbox" id="signup" name="signup" value="Signup" class="control-form control-form__checkbox" />
+                <label for="signup" class="control-label__checkbox">Sign up for news letter</label><br />
+                <input type="checkbox" id="terms" name="terms" value="Terms" class="control-form__checkbox" />
+                <label for="terms" class="control-label__checkbox"> Agree to terms and conditions</label>
             </div>
-        
-            <div>
+
+            <div class="form-group text-align--center">
                 <button type="submit">Submit</button>
             </div>
-        
-            </fieldset>
-        </form>
-    </body>
+
+        </fieldset>
+    </form>
+</body>
+
 </html>
