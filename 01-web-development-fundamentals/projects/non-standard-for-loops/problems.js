@@ -32,9 +32,9 @@ function oddReverse(arr) {
 
 function secondPower(arr) {
   // Return an array containing all indices that are powers of 2
+  // Double the value of i each time through the loop starting at 1
   // Your code here
 
-  // const isPowerOf2 = !(i & (i - 1)) && i;
   const results = [];
 
   for (let i = 1; i < arr.length; i *= 2) {
@@ -61,12 +61,16 @@ function firstHalf(arr) {
   // Return an array containing the first half of an array
   // Include middle index on odd length arr
   // Your code here
+  const middle = Math.ceil(arr.length / 2);
+  return arr.slice(0, middle);
 }
 
 function secondHalf(arr) {
   // Return an array containing the second half of an array
   // Exclude middle index on odd length arr
   // Your code here
+  const middle = Math.ceil(arr.length / 2);
+  return arr.slice(middle);
 }
 
 module.exports = {
