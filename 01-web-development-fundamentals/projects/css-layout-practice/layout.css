@@ -1,0 +1,88 @@
+.center {
+  margin: auto;
+  width: 30vw;
+  min-width: 400px;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+fieldset {
+  border: 2px groove black;
+}
+
+legend {
+  border: 1px solid black;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+label:hover {
+  font-size: 1.25em;
+}
+
+p {
+  font-weight: bold;
+}
+
+.form-group {
+  margin: 10px auto;
+  width: 250px;
+}
+
+.control-label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.control-form {
+  width: 200px;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+.control-form__checkbox {
+  width: unset;
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.control-form__select {
+  width: 210px;
+  display: inline-block;
+}
+
+.control-label__checkbox {
+  margin-right: 5px;
+}
+
+.lang {
+  text-align: left;
+}
+
+.lang__input {
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.comments textarea {
+  width: 200px;
+  display: inline-block;
+}
+
+.text-align--center {
+  text-align: center;
+}
+
+.text-align--left {
+  text-align: left;
+}
+
+.ux {
+  border: 1px solid red;
+  background-color: aqua;
+}
