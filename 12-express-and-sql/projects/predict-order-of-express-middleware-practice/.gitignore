@@ -1244,6 +1244,8 @@ nodemon.json
 [Ff]ortify*
 *.fpr
 
+### END - VHA CUSTOM ###
+
 # Logs #
 /log/*
 !/log/.keep
